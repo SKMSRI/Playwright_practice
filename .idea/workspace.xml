@@ -61,7 +61,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Maxmizewindow">
     <configuration name="Loadingpage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Loadingpage" />
       <module name="Playwright_practice" />
@@ -75,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Maxmizewindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Maxmizewindow" />
+      <module name="Playwright_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeDay1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maxmizewindow" />
         <item itemvalue="Application.Loadingpage" />
       </list>
     </recent_temporary>

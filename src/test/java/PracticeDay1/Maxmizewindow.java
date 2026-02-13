@@ -20,7 +20,7 @@ public class Maxmizewindow {
 
             Page page = context.newPage();
 
-            page.navigate("http://way2automation.com");
+            page.navigate("http://google.com");
             System.out.println(page.title());
 
         }
