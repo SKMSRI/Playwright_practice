@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Maxmizewindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/NonIncognitoWindowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Loadingpage.executor": "Run",
+    "Application.Maxmizewindow.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -61,7 +62,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Maxmizewindow">
+  <component name="RunManager" selected="Application.NonIncognitoWindowTest">
     <configuration name="Loadingpage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Loadingpage" />
       <module name="Playwright_practice" />
@@ -88,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NonIncognitoWindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.NonIncognitoWindowTest" />
+      <module name="Playwright_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeDay1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonIncognitoWindowTest" />
         <item itemvalue="Application.Maxmizewindow" />
         <item itemvalue="Application.Loadingpage" />
       </list>
@@ -112,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770769657819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="push">
+      <option name="closed" value="true" />
+      <created>1770942004316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770942004317</updated>
+    </task>
+    <task id="LOCAL-00003" summary="push">
+      <option name="closed" value="true" />
+      <created>1770942129949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770942129949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
