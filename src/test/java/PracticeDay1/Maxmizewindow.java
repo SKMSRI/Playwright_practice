@@ -12,11 +12,11 @@ public class Maxmizewindow {
 
                public static void main(String[] args) {
 
-            Playwright playwright = Playwright.create();
+            Playwright PW = Playwright.create();
             ArrayList<String> arguments = new ArrayList<>();
             arguments.add("--start-maximized");
-            Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false).setArgs(arguments));
-            BrowserContext context = browser.newContext(new Browser.NewContextOptions().setViewportSize(null));
+            Browser bw = PW.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false).setArgs(arguments));
+            BrowserContext context = bw.newContext(new Browser.NewContextOptions().setViewportSize(null));
 
             Page page = context.newPage();
 
