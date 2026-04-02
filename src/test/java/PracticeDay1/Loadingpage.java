@@ -1,23 +1,19 @@
 package PracticeDay1;
 
-import com.microsoft.playwright.Playwright;
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.Page;
+import com.microsoft.playwright.*;
 
 public class Loadingpage {
 
     public static void main (String[] args) throws InterruptedException {
-        Playwright playwright = Playwright.create();
-        Browser browser = playwright.chromium().launch();
-        BrowserContext context = browser.newContext();
-        Page page = context.newPage();
-        page.navigate("https://google.com");
-        Thread.sleep(5000);
-        page.close();
-        context.close();
-        browser.close();
-        playwright.close();
+
+            Playwright pw=Playwright.create();
+            Browser bw=pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+            Page PW =bw.newPage();
+            PW.navigate("http://google.com");
+            System.out.println(PW.title());
+            // PW.close();
+            // bw.close();
+            Thread.sleep(5000);
     }
 
 }
