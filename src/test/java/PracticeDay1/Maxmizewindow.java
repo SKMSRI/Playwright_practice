@@ -10,18 +10,17 @@ import com.microsoft.playwright.Playwright;
 
 public class Maxmizewindow {
 
-               public static void main(String[] args) {
+               public static void main(String[] args) throws InterruptedException {
 
-            Playwright PW = Playwright.create();
-            ArrayList<String> arguments = new ArrayList<>();
-            arguments.add("--start-maximized");
-            Browser bw = PW.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false).setArgs(arguments));
-            BrowserContext context = bw.newContext(new Browser.NewContextOptions().setViewportSize(null));
-
-            Page page = context.newPage();
-
-            page.navigate("http://google.com");
-            System.out.println(page.title());
+                   Playwright pw = Playwright.create();
+                   Browser bw = pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+                   BrowserContext context = bw.newContext(new Browser.NewContextOptions().setViewportSize(1521, 920));
+                   Page Pw = context.newPage();
+                   Pw.navigate("http://google.com");
+                   //Pw.close();
+                   //bw.close();
+                   Thread.sleep(5000);
+                   //System.out.println(Pw.title());
 
         }
 
