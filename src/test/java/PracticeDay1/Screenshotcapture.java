@@ -9,6 +9,7 @@ public class Screenshotcapture {
 
     public static void main(String[] args) {
 
+
         Playwright Pw= Playwright.create();
         Browser bw= Pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
         BrowserContext context = bw.newContext(new Browser.NewContextOptions().setViewportSize(1521, 920));
