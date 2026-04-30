@@ -22,8 +22,6 @@ public class TestHandlingDropdowns {
         //select by value
         page.selectOption("select", "hi");
 
-
-
         //select by text
         page.selectOption("select", new SelectOption().setLabel("Eesti"));
 
