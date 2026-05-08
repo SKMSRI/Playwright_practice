@@ -13,9 +13,6 @@ public class practice {
         //bw.close();
         Thread.sleep(5000);
         //System.out.println(Pw.title());
-
-
-
     }
     }
 
