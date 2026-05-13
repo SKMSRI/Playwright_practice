@@ -11,7 +11,6 @@ import com.microsoft.playwright.Playwright;
 public class Maxmizewindow {
 
                public static void main(String[] args) throws InterruptedException {
-
                    Playwright pw = Playwright.create();
                    Browser bw = pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
                    BrowserContext context = bw.newContext(new Browser.NewContextOptions().setViewportSize(1521, 920));
