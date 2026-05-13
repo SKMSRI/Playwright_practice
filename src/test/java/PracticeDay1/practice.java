@@ -11,12 +11,9 @@ public class practice {
         Pw.navigate("http://google.com");
         //Pw.close();
         //bw.close();
-
         Thread.sleep(5000);
         //System.out.println(Pw.title());
     }
-
-
     }
 
 
