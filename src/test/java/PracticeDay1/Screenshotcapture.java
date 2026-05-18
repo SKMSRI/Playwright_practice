@@ -5,8 +5,6 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-
-
 public class Screenshotcapture {
     public static void main(String[] args) {
        Playwright Pw= Playwright.create();
