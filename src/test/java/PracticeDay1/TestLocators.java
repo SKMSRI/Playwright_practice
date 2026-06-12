@@ -26,12 +26,6 @@ public class TestLocators {
         page.locator("[type=password]").fill("sdfsdfdsf");
         page.click("button:has-text('Next')");
         System.out.println(page.locator("//*[@id=\"view_container\"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[2]/div[2]/span").innerText());
-
-
-
-
-
-
     }
 
 }
