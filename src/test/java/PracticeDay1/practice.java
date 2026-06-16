@@ -18,4 +18,16 @@ public class practice {
 
 
 
-
+    /* practice automtion website
+     * 1. open the browser
+     * 2. navigate to google.com
+     * 3. close the browser
+     * 4. print the title of the page
+     * 5. maximize the window
+     * 6. capture the screenshot of the page
+     * 7. handle multiple browser contexts
+     * 8. locators in playwritght
+ Websites to practice:
+     * https://demo.automationtesting.in/Register.html
+     *
+     */
