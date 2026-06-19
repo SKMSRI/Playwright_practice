@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Calender_DatePicker.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -514,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781699280100</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="push1">
+      <option name="closed" value="true" />
+      <created>1781743048943</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1781743048943</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
