@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CalenderDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_DynamicDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Locators_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Auto_waiting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Calender_DatePicker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Frame_iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Frame_iFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CalenderDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CalenderDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Auto_waiting.executor": "Run",
     "Application.Calender_DatePicker.executor": "Run",
     "Application.CodeGen_CLI.executor": "Run",
     "Application.HandlingCheckBox.executor": "Run",
@@ -87,7 +82,20 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Handling_DropDown">
+  <component name="RunManager" selected="Application.Auto_waiting">
+    <configuration name="Auto_waiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Auto_waiting" />
+      <module name="Playwright_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeDay1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calender_DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Calender_DatePicker" />
       <module name="Playwright_practice" />
@@ -127,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleBrowserContexts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.MultipleBrowserContexts" />
-      <module name="Playwright_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PracticeDay1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tasks_Dailyforpactice.Task_1" />
       <module name="Playwright_practice" />
@@ -155,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Auto_waiting" />
         <item itemvalue="Application.Handling_DropDown" />
         <item itemvalue="Application.Handling_CheckBox" />
         <item itemvalue="Application.Calender_DatePicker" />
         <item itemvalue="Application.Task_1" />
-        <item itemvalue="Application.MultipleBrowserContexts" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781875648943</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="push1">
+      <option name="closed" value="true" />
+      <created>1782132365300</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1782132365301</updated>
+    </task>
+    <task id="LOCAL-00048" summary="push1">
+      <option name="closed" value="true" />
+      <created>1782132512308</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1782132512308</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
