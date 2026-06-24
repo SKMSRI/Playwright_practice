@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Auto_waiting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_FileUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CalenderDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_CalenderDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,30 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Auto_waiting.executor": "Run",
-    "Application.Calender_DatePicker.executor": "Run",
-    "Application.CodeGen_CLI.executor": "Run",
-    "Application.HandlingCheckBox.executor": "Run",
-    "Application.Handling_DropDown.executor": "Run",
-    "Application.Loadingpage.executor": "Run",
-    "Application.Maxmizewindow.executor": "Run",
-    "Application.MultipleBrowserContexts.executor": "Run",
-    "Application.NonIncognitoWindowTest.executor": "Run",
-    "Application.Screenshotcapture.executor": "Run",
-    "Application.Task_1.executor": "Run",
-    "Application.TestLocators.executor": "Run",
-    "Application.practice.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SAURABH/IdeaProjects/Playwright_practice",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Auto_waiting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calender_DatePicker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CodeGen_CLI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandlingCheckBox.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Handling_DropDown.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Loadingpage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maxmizewindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleBrowserContexts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NonIncognitoWindowTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Screenshotcapture.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SAURABH/IdeaProjects/Playwright_practice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Auto_waiting">
     <configuration name="Auto_waiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Auto_waiting" />
@@ -551,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782132512308</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="push1">
+      <option name="closed" value="true" />
+      <created>1782225563968</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1782225563968</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
