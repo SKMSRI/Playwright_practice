@@ -4,7 +4,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
 
-public class Task_1 {
+public class Task_1W {
 
     public static void main(String[] args) {
         Playwright pw=Playwright.create();

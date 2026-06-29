@@ -11,12 +11,13 @@ public class Handling_FileDownload {
         Page Pw = ct.newPage();
         Pw.navigate("https://demoqa.com/upload-download");
         Pw.locator("//a[@id='downloadButton']").click();
-        //print the downloaded file name
-        System.out.println("File Download");
 
         //download file path
-     //String Path = Download.paths.toString();
-        //System.out.println(Path);
+//        String path = download.path().toString();
+//        System.out.println(path);
+
+        //print the downloaded file name
+
 
         //cancel the download
        //download.cancel();
