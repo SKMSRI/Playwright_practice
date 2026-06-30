@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_BrokenLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_MultipleWindows_tabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_BrokenLinks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,7 @@
     "Application.Handling_BrokenLinks.executor": "Run",
     "Application.Handling_DropDown.executor": "Run",
     "Application.Handling_FileDownload.executor": "Run",
+    "Application.Handling_MultipleWindows_tabs.executor": "Run",
     "Application.Loadingpage.executor": "Run",
     "Application.Maxmizewindow.executor": "Run",
     "Application.MultipleBrowserContexts.executor": "Run",
@@ -83,7 +86,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Handling_BrokenLinks">
+  <component name="RunManager" selected="Application.Handling_MultipleWindows_tabs">
     <configuration name="Auto_waiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Auto_waiting" />
       <module name="Playwright_practice" />
@@ -110,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Handling_DropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_DropDown" />
+    <configuration name="Handling_FileDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_FileDownload" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Handling_FileDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_FileDownload" />
+    <configuration name="Handling_MultipleWindows_tabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_MultipleWindows_tabs" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Handling_MultipleWindows_tabs" />
         <item itemvalue="Application.Handling_BrokenLinks" />
         <item itemvalue="Application.Handling_FileDownload" />
         <item itemvalue="JUnit.Handling_FileUpload.singlefileupload" />
         <item itemvalue="Application.Auto_waiting" />
-        <item itemvalue="Application.Handling_DropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770125916012</updated>
-    </task>
-    <task id="LOCAL-00005" summary="push">
-      <option name="closed" value="true" />
-      <created>1775088141271</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1775088141271</updated>
     </task>
     <task id="LOCAL-00006" summary="push">
       <option name="closed" value="true" />
@@ -563,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782740815011</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="push1">
+      <option name="closed" value="true" />
+      <created>1782822224675</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1782822224676</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
