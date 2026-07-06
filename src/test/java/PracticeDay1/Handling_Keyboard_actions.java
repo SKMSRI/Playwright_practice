@@ -43,4 +43,15 @@ page.locator("#name").press("Shift+A");
 
 // <input id=name>
 page.locator("#name").press("Shift+ArrowLeft");
+page.keyboard().type("Hello World!");
+page.keyboard().press("ArrowLeft");
+page.keyboard().down("Shift");
+for (int i = 0; i < " World".length(); i++)
+  page.keyboard().press("ArrowLeft");
+page.keyboard().up("Shift");
+page.keyboard().press("Backspace");
+An example of pressing uppercase A
+page.keyboard().press("Shift+KeyA");
+// or
+page.keyboard().press("Shift+A");
 */
