@@ -1,7 +1,5 @@
 package PracticeDay1;
-
 import com.microsoft.playwright.*;
-
 import java.sql.Driver;
 
 public class Handling_MultipleWindows_tabs {
@@ -23,7 +21,9 @@ public class Handling_MultipleWindows_tabs {
                 break;
 
             }
+            //Pw1.close();
         }
+
         //switch to new window
         Thread.sleep(5000);
         Pw1.locator("//button[@id='messageWindowButton']").click();

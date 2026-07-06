@@ -19,6 +19,8 @@ public class Handling_Alerts_Popups {
         Pw.locator("//button[@id='alertButton']").click();
         Thread.sleep(5000);
         Pw.locator("//button[@id='timerAlertButton']").click();
+        Pw.locator("//button[@id='confirmButton']").click();
+        Pw.locator("//button[@id='promtButton']").click();
         bw.close();
 
     }
