@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Keyboard_actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Alerts_Popups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Keyboard_actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Keyboard_actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_MultipleWindows_tabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_MultipleWindows_tabs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,7 @@
     "Application.Calender_DatePicker.executor": "Run",
     "Application.CodeGen_CLI.executor": "Run",
     "Application.HandlingCheckBox.executor": "Run",
+    "Application.Handling_Alerts_Popups.executor": "Run",
     "Application.Handling_BrokenLinks.executor": "Run",
     "Application.Handling_DropDown.executor": "Run",
     "Application.Handling_FileDownload.executor": "Run",
@@ -88,9 +90,9 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Handling_Keyboard_actions">
-    <configuration name="Handling_BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_BrokenLinks" />
+  <component name="RunManager" selected="Application.Handling_Alerts_Popups">
+    <configuration name="Handling_Alerts_Popups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Alerts_Popups" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Handling_FileDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_FileDownload" />
+    <configuration name="Handling_BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_BrokenLinks" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Handling_Alerts_Popups" />
         <item itemvalue="Application.Handling_Keyboard_actions" />
         <item itemvalue="Application.Handling_Mouse_Events" />
         <item itemvalue="Application.Handling_MultipleWindows_tabs" />
         <item itemvalue="Application.Handling_BrokenLinks" />
-        <item itemvalue="Application.Handling_FileDownload" />
       </list>
     </recent_temporary>
   </component>
