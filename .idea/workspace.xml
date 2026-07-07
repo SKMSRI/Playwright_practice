@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Alerts_Popups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Alerts_Popups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_MultipleWindows_tabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_MultipleWindows_tabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Multiple_browsers_Tabs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,7 @@
     "Application.Handling_Keyboard_actions.executor": "Run",
     "Application.Handling_Mouse_Events.executor": "Run",
     "Application.Handling_MultipleWindows_tabs.executor": "Run",
+    "Application.Handling_Multiple_browsers_Tabs.executor": "Run",
     "Application.Loadingpage.executor": "Run",
     "Application.Maxmizewindow.executor": "Run",
     "Application.MultipleBrowserContexts.executor": "Run",
@@ -89,22 +88,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Handling_MultipleWindows_tabs">
+  <component name="RunManager" selected="Application.Handling_Multiple_browsers_Tabs">
     <configuration name="Handling_Alerts_Popups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Alerts_Popups" />
-      <module name="Playwright_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PracticeDay1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Handling_BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_BrokenLinks" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -155,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Handling_Multiple_browsers_Tabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Multiple_browsers_Tabs" />
+      <module name="Playwright_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeDay1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Handling_Multiple_browsers_Tabs" />
         <item itemvalue="Application.Handling_MultipleWindows_tabs" />
         <item itemvalue="Application.Handling_Alerts_Popups" />
         <item itemvalue="Application.Handling_Keyboard_actions" />
         <item itemvalue="Application.Handling_Mouse_Events" />
-        <item itemvalue="Application.Handling_BrokenLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -173,14 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770125916012</updated>
-    </task>
-    <task id="LOCAL-00010" summary="push">
-      <option name="closed" value="true" />
-      <created>1777463568070</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1777463568071</updated>
     </task>
     <task id="LOCAL-00011" summary="push">
       <option name="closed" value="true" />
@@ -566,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783296693137</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="push1">
+      <option name="closed" value="true" />
+      <created>1783381915596</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1783381915598</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
