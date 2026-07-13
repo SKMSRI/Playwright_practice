@@ -22,5 +22,7 @@ public class Screenshotcapture {
                 .setPath(Paths.get("amazon3.png")));
         bw.close();
 
+
+
     }
 }
