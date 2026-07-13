@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4dd2315-24ec-40a4-8308-fe28212540bc" name="Changes" comment="push1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Screenshotcapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Screenshotcapture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Frame_iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeDay1/Handling_Frame_iFrames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "Application.Handling_BrokenLinks.executor": "Run",
     "Application.Handling_DropDown.executor": "Run",
     "Application.Handling_FileDownload.executor": "Run",
+    "Application.Handling_Frame_iFrames.executor": "Run",
     "Application.Handling_Keyboard_actions.executor": "Run",
     "Application.Handling_Mouse_Events.executor": "Run",
     "Application.Handling_MultipleWindows_tabs.executor": "Run",
@@ -82,6 +83,7 @@
     "JUnit.Handling_FileUpload.singlefileupload.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "copilot.chat.legacySessionMetadata.migrated": "true",
@@ -91,7 +93,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Screenshotcapture">
+  <component name="RunManager" selected="Application.Handling_Frame_iFrames">
     <configuration name="Handling_Alerts_Popups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Alerts_Popups" />
       <module name="Playwright_practice" />
@@ -105,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Handling_Keyboard_actions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Keyboard_actions" />
+    <configuration name="Handling_Frame_iFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeDay1.Handling_Frame_iFrames" />
       <module name="Playwright_practice" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Handling_Frame_iFrames" />
         <item itemvalue="Application.Screenshotcapture" />
         <item itemvalue="Application.Handling_Multiple_browsers_Tabs" />
         <item itemvalue="Application.Handling_MultipleWindows_tabs" />
         <item itemvalue="Application.Handling_Alerts_Popups" />
-        <item itemvalue="Application.Handling_Keyboard_actions" />
       </list>
     </recent_temporary>
   </component>
@@ -182,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770125916012</updated>
-    </task>
-    <task id="LOCAL-00014" summary="push">
-      <option name="closed" value="true" />
-      <created>1778249477564</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1778249477565</updated>
     </task>
     <task id="LOCAL-00015" summary="push">
       <option name="closed" value="true" />
@@ -575,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783641911382</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="push1">
+      <option name="closed" value="true" />
+      <created>1783949114521</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1783949114524</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
