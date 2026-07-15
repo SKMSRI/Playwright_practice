@@ -16,5 +16,7 @@ public class Handling_Frame_iFrames {
         String text2 = Pw.frameLocator("//iframe[@id='frame2']").locator("//h1[@id='sampleHeading']").textContent();
         System.out.println("Text in frame2: " + text2);
         bw.close();
+
+
     }
 }
