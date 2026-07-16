@@ -11,6 +11,7 @@ public class Handling_Alerts_Popups {
         Page Pw = ct.newPage();
         Pw.navigate("https://demoqa.com/alerts");
 
+
         //Page.onDialog(handler) listener must handle the dialog.
         // Otherwise your action will stall, be it Locator.click() or something else.
         Pw.onDialog(dialog -> dialog.accept());
